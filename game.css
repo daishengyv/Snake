@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #4b77ee;
+}
+.container {
+  width: 800px;
+  border: 4px solid #cef810;
+  margin: 40px auto 0;
+}
+.game-map {
+  width: 500px;
+  margin: 20px auto;
+}
+.game-map div {
+  height: 25px;
+}
+.game-map div span {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background-color: #000000;
+  box-sizing: border-box;
+  border: 0.5px solid #6bec67;
+}
+.game-map div span.snake {
+  background-color: #bd3462;
+}
+.game-map div span.head {
+  border-radius: 50%;
+  background-color: #cbcf14;
+}
+.game-map div span.food {
+  background-color: #0f5cac;
+}
+.game-footer {
+  border-top: 2px solid #000;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.game-btn {
+  cursor: pointer;
+}
+.game-btn:hover {
+  color: red;
+}
